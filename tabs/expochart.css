@@ -1,0 +1,27 @@
+div.expochart {
+	height: 500px;
+	width: 500px;
+	position:relative;
+	display:block;
+}
+
+.expochart img {
+	position:absolute;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	margin-right:5%;
+	height:calc(100% - 10%);
+	width:calc(100% - 10%);
+}
+
+.expochart canvas {
+	position:absolute;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:5%;
+	margin-right:5%;
+	height:calc(100% - 10%);
+	width:calc(100% - 10%);
+	background:rgba(128,128,128,0);
+}
