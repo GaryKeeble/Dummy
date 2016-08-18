@@ -31,7 +31,7 @@ window.chartTest = new ChartTest();
 /* Wrap whole function in an independant class */
 
 function ExpoChart(canvas, rcData, rcExpo, rcRate, deadband, midrc, axisRate, superExpoActive) {
-	
+	// Documentation update for testing
 	var fontHeight, fontFace;
 	var rcCommandMaxDegS, rcCommandMinDegS;
 	var canvasHeightScale;
