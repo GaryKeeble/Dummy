@@ -36,6 +36,7 @@ function ExpoChart(canvas, rcData, rcExpo, rcRate, deadband, midrc, axisRate, su
 	var rcCommandMaxDegS, rcCommandMinDegS;
 	var canvasHeightScale;
 
+	// Test directly to master branch
 	var DEFAULT_FONT_FACE = "pt Verdana, Arial, sans-serif";
 	var stickColor 		  = "rgba(255,102,102,1.0)";  	// Betaflight Orange
 	var expoCurveColor    = "rgba(0,0,255,0.5)";		// Blue
